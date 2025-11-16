@@ -1,0 +1,9 @@
+# way to delete the attribute
+class student:
+    def __init__(self , name):
+        self.name=name
+
+s1=student("shradha")
+print(s1.name)
+del(s1.name)
+print(s1.name)
