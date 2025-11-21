@@ -24,3 +24,13 @@ def compute_sum(numbers):
 def compute_average(numbers):
     avg=compute_sum(numbers)/length
     return avg
+
+#function to find the maximum element in the list using for loop
+def find_largest(numbers):
+    max=numbers[0]
+    for i in numbers:
+        if i>max:
+            max=i
+    return max
+
+
