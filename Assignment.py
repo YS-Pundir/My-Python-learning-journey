@@ -20,3 +20,7 @@ def compute_sum(numbers):
         sum+=i
     return sum
 
+#function to find the average of all elements in the list
+def compute_average(numbers):
+    avg=compute_sum(numbers)/length
+    return avg
