@@ -33,4 +33,19 @@ def find_largest(numbers):
             max=i
     return max
 
+#function to find minimum element in the list using for loop
+def find_smallest(numbers):
+    min=numbers[0]
+    for i in numbers:
+        if i<min:
+            min=i
+    return min
 
+#function to display the results of all peroformed operations
+def display_funciton():
+    print("the sum of all elements in the list is :",compute_sum(length))
+    print("the average of all elements in the list is :",compute_average(numbers))
+    print("the largest element in the list is :",find_largest(numbers))
+    print("the smallest element in the list is :",find_smallest(numbers))
+    
+display_funciton()
