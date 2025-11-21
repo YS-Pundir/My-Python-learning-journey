@@ -3,18 +3,18 @@ Write the following program, upload the code and prepare live demo for the comin
 
 Write a Python program that receives integer values from the user (minimum 2, maximum 10 numbers) and performs operations using functions: sum, average, largest number, and smallest number.
 
-Assignment Tasks
-Receive User Input
-Write code to prompt the user to input integers.
-Ensure the program accepts at least 2 numbers and at most 10 numbers.
-Store the numbers in a list.
+ 1.Assignment Tasks 
+ 2.Receive User Input
+ 3.Write code to prompt the user to input integers.
+ 4.Ensure the program accepts at least 2 numbers and at most 10 numbers.
+ 5.Store the numbers in a list.
 Create functions for the following tasks:
-compute_sum(numbers) – Returns the sum of all numbers.
-compute_average(numbers) – Returns the average of all numbers.
-find_largest(numbers) – Returns the largest number.
-find_smallest(numbers) – Returns the smallest number.
+ 1.compute_sum(numbers) – Returns the sum of all numbers.
+ 2.compute_average(numbers) – Returns the average of all numbers.
+ 3.find_largest(numbers) – Returns the largest number.
+ 4.find_smallest(numbers) – Returns the smallest number.
 Display function: Display function should call the following functions and print the returned values
-Sum of the numbers
-Average of the numbers
-Largest number
-Smallest number
+ 1.Sum of the numbers
+ 2.Average of the numbers
+ 3.Largest number
+ 4.Smallest number
