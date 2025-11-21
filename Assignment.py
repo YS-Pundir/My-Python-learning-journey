@@ -13,4 +13,10 @@ def create_list():#function to create a list
 create_list()
 print("the created list is :",numbers)
 
-#function to find the 
+#function to find the sum of all elements in the list
+def compute_sum(numbers):
+    sum=0
+    for i in range (numbers):
+        sum+=i
+    return sum
+
