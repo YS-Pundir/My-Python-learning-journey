@@ -10,13 +10,19 @@ class NumberProcessor:
         for i in self.List:
             sum+=i
         return sum
-#taking input from user
+    #method to caalculate average of all elements in the list
+    def calculate_average(self):
+        return self.calculate_sum()/len(self.List)
+        
+
+#taking input form user
 list1=[]
 for i in range(5):
     n=int(input("enter the number : ",))
     list1.append(n)
 list1=NumberProcessor(list1)
 print("the sum of all elements in the list is : ",list1.calculate_sum())
+print("the average of all elements in the list is : ",list1.calculate_average())
 
 
     
