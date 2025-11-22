@@ -1,0 +1,26 @@
+Instructions
+Task Overview 
+Create a Python program that uses a class to manage and process a set of integers. The class should contain five variables, several functions to perform mathematical operations, and a display method to show all computed results. In addition to the class, you must write separate code that collects user input. 
+ 
+Tasks
+Create a class named NumberProcessor that includes the following: 
+
+
+Attributes (Variables): 
+1.	A list to hold the integers 
+2.	A variable to store the total sum 
+3.	A variable to store the average 
+4.	A variable to store the largest value 
+5.	A variable to store the smallest value 
+Methods: 
+•	compute_sum(numbers): Returns the total sum of the numbers 
+•	compute_average(numbers): Returns the average value 
+•	find_largest(numbers): Returns the largest number 
+•	find_smallest(numbers): Returns the smallest number 
+•	display(): Calls all the above methods and print the sum, the average , the largest number , the smallest number 
+User Input Requirements 
+•	Outside the class, write code to: 
+•	Prompt the user to input five integers 
+•	Store these integers in a list 
+•	Pass the list to an instance of the class 
+ 
