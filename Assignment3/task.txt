@@ -1,0 +1,53 @@
+Python Class Requirements
+
+Create a Python program that defines a class named Marks_sheet.
+
+Class Attributes
+
+The class must include the following attributes:
+
+Subject
+
+Assignments_marks
+
+Quizzes_marks
+
+miniProject_marks
+
+finalProject_marks
+
+Constructor
+
+Write a constructor (__init__) that initializes all attributes.
+
+Method
+
+Define a method inside the class that:
+
+Calculates the total score by summing:
+
+Assignment marks
+
+Quizzes marks
+
+Mini project marks
+
+Final project marks
+
+Returns the total score.
+
+Main Program Requirements
+
+Create five objects of the class.
+
+Call the method that calculates the total marks.
+
+Display the result for each object.
+
+Submission
+
+Submit the .py file that contains:
+
+The class definition
+
+The main program
