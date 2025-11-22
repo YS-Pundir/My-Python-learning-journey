@@ -20,6 +20,19 @@ class NumberProcessor:
             if i>max:
                 max=i
         return max
+    #method to find smallest element in the List
+    def find_smallest(self):
+        min=self.List[0]
+        for i in self.List:
+            if i <min:
+                min=i
+        return min
+    #method to diplay all thhe  results
+    def display_results(self):
+        print("the sum of all elements in the list is : ",self.calculate_sum())
+        print("the average of all elements in the list is : ",self.calculate_average())
+        print("the largest element in the list is : ",self.find_largest())
+        print("the smallest element in the list is : ",self.find_smallest())
         
 
 #taking input form user
@@ -28,9 +41,8 @@ for i in range(5):
     n=int(input("enter the number : ",))
     list1.append(n)
 list1=NumberProcessor(list1)
-print("the sum of all elements in the list is : ",list1.calculate_sum())
-print("the average of all elements in the list is : ",list1.calculate_average())
-print("the largest element in the list is : ",list1.find_largest())
+list1.display_results()
+
 
 
     
